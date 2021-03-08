@@ -3,6 +3,6 @@
 <h1>{{ .Title }}</h1>
 {{ partial "date-and-tags.html" . }}
 <br><br>
-{{ replace .Content "input disabled type" "input type" | safeHTML }}
+{{ replaceRE "input disabled=\"\" type" "input type" .Content | safeHTML }}
 
 {{ end }}
