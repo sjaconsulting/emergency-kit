@@ -1,0 +1,35 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Emergency Kit"
+
+[permalinks]
+  blog = "/:filename/"
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Checklists"
+    pre = "check"
+    url = "/checklist/"
+    weight = 2    
+  [[menu.main]]
+    name = "Tags"
+    pre = "tag"
+    url = "/tags/"
+    weight = 3
+
+[params]
+  dateFormat = "Jan 2, 2006"
+  homeText = "Checklists for building your own supply kits and plans in case of emergency."
+
+[taxonomies]
+  tag = "tags"  
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
