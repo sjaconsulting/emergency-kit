@@ -1,12 +1,12 @@
 Emergency Kit
 =============
-A [Cloudflare Pages](https://developers.cloudflare.com/pages/) project for building the [Emergency Kit website](https://emergency-kit.pages.dev)
+A [Cloudflare Pages](https://developers.cloudflare.com/pages/) project for building the [Emergency Kit website](https://emergency-kit.pages.dev/)
 
 This is a project for building a Hugo site hosted on Cloudflare Pages with checklists for emergency kits and plans.
 
 ## Project Home Page
 
-**Emergency Kit website: [https://emergency-kit.pages.dev](https://https://emergency-kit.pages.dev)**
+**Emergency Kit website: [https://emergency-kit.pages.dev/](https://emergency-kit.pages.dev/)**
 
 ## Contributing
 
